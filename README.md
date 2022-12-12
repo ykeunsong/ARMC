@@ -100,18 +100,42 @@ SVM : C값과 감마값 각각 1000, 0.001
 RF와 SVM은 그리드 탐색을 따로 하지 않고 시행차공.
 
 ## 실행결과
-10-Fold
-DNN 모델링 실험
-XGB 그리드 탐색
+* 10-Fold
+* DNN 모델링 실험
+![image](https://user-images.githubusercontent.com/119989103/206965774-a3166494-7c64-4f13-a307-f6cfc92b5fed.png)
+
+* XGB 그리드 탐색
 
 >Best parameters set found on development set:
-
 >{'booster': 'gbtree', 'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 2000, 'nthread': 4}
-
 >Grid scores on development set:
-
 >0.987 (+/-0.002) for {'booster': 'gbtree', 'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 2000, 'nthread': 4}
 >0.987 (+/-0.001) for {'booster': 'gbtree', 'learning_rate': 0.05, 'max_depth': 8, 'n_estimators': 2000, 'nthread': 4}
 
+## 정답지 및 분류기별 예측치 상관관계
+실험결과에 대해 분류기별 예측치 상관분석
+![image](https://user-images.githubusercontent.com/119989103/206966289-dd769fa9-3cbf-499b-ac8c-67431f7d520c.png)
 
+SVM과 기타 분류기간 상관관계가 낮음
+상관관계가 낮으면 투표기를 사용하는 것이 이득이기에 투표기를 제작
 
+## 최종평가
+예선 : 95.7%
+||Answer-Malware|Answer-Benign|
+|------|---|---|
+|Test-Malware|191|18|
+|Test-Bengin|8|382|
+
+1st 본선(add imaged DEX classifier) : 95.99%
+
+||Answer-Malware|Answer-Benign|
+|------|---|---|
+|Test-Malware|192|17|
+|Test-Bengin|7|383|
+
+2nd 본선(add 2,000 dataset) : 96.9%
+
+||Answer-Malware|Answer-Benign|
+|------|---|---|
+|Test-Malware|266|18|
+|Test-Bengin|7|508|
