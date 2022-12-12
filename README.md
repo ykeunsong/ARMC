@@ -1,6 +1,10 @@
 # ARMC
 AI-based android malicious app detection
 
+ARMC.ipynb : executable code
+
+ARMC_train.ipynb : training code
+
 ## Introduction
 1. Malicious app trend research
 * review of papers, classification of malicious apps 
