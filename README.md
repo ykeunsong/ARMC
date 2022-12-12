@@ -46,6 +46,8 @@ AI-based android malicious app detection
 * DEX File Size Analysis: Windows Malicious File → Small Size
 ![image](https://user-images.githubusercontent.com/119989103/206964763-4c508291-7d24-4bf4-a76f-9dbba226001f.png)
 ![image](https://user-images.githubusercontent.com/119989103/206964775-7704c604-79ac-46de-91c0-94504eea2aef.png)
+
+
 source : https://www.kennethghartman.com/shannon-entropy-of-file-formats/
 
 ### Dataset analysis(2)
@@ -59,6 +61,8 @@ source : https://www.kennethghartman.com/shannon-entropy-of-file-formats/
 * DEX Binary File Image: Known to show good performance in family classification of Android apps
 
 ![image](https://user-images.githubusercontent.com/119989103/206964974-a2090e2d-398e-43dc-b7dd-9d364fdefd05.png)
+
+
 source : TonTon Hsien-De Huang, “R2-D2: ColoR -inspired Convolutional NeuRal Network(CNN)-based AndroiD malware Detections”, 2018
 
 Normal application
