@@ -66,9 +66,11 @@ source : https://www.kennethghartman.com/shannon-entropy-of-file-formats/
 source : TonTon Hsien-De Huang, “R2-D2: ColoR -inspired Convolutional NeuRal Network(CNN)-based AndroiD malware Detections”, 2018
 
 Normal application
+
 ![image](https://user-images.githubusercontent.com/119989103/206964985-895d84e7-b84d-4d2e-b27e-bafa80343ef8.png)
 
-Malicious application
+Malicious application : Unusual black space inside the file
+
 ![image](https://user-images.githubusercontent.com/119989103/206964997-c9df431a-594c-4a92-b5c3-e3d1ae120961.png)
 
 ## Program structure
