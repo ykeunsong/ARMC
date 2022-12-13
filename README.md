@@ -5,9 +5,6 @@ AI-based android malicious app detection
 
 [ARMC_train.ipynb](https://github.com/ykeunsong/ARMC/blob/main/ARMC_train.ipynb) : training code
 
-
-Official announcement link(Korean, KISA) : https://www.kisa.or.kr/402/form?postSeq=1740
-
 ## Introduction
 1. Malicious app trend research
 * review of papers, classification of malicious apps 
